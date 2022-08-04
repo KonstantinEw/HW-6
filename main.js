@@ -59,7 +59,7 @@ console.log(Numbers.indexOf(8));
 
 const binary = [0, 0, 0, 0]
 
-console.log(binary.join(''));
+console.log(binary.join('1'));
 
 //8
 
@@ -109,6 +109,7 @@ let midFour = sumFour/matrix[3].length;
 console.log (midFour);
 
 
+//10
 
 
 
