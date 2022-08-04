@@ -8,9 +8,9 @@ console.log(colors.length);
 
 const animals = ['monkey', 'dog', 'cat'];
 
-let arrLength = animals.length - 1;
+let arrLength = animals[animals.length - 1];
 
-console.log(arrLength);
+console.log(arrLength); // cat
 
 //3
 
@@ -111,6 +111,6 @@ console.log (midFour);
 
 //10
 
-
+const mixedNumbers = [-14, 24, -89, 43, 0 , -1, 412, 4]
 
 
