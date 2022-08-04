@@ -113,4 +113,7 @@ console.log (midFour);
 
 const mixedNumbers = [-14, 24, -89, 43, 0 , -1, 412, 4]
 
+let positive = mixedNumbers.filter((i => i>=0));
+
+let negative = mixedNumbers.filter((i => i<0));
 
